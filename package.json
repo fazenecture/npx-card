@@ -1,21 +1,28 @@
 {
-  "name": "npx-card",
-  "version": "1.0.1",
+  "name": "vivek",
+  "version": "1.0.5",
   "description": "",
-  "main": "index.js",
+  "main": "card.js",
+  "bin": "./card.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon card.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "business",
+    "card"
+  ],
+  "author": "faznecture",
   "license": "ISC",
+  "homepage": "https://github.com/fazenecture/npx-card",
   "dependencies": {
-    "boxen": "^6.2.1",
-    "chalk": "^5.0.0",
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
     "clear": "^0.1.0",
-    "inquirer": "^8.2.0",
-    "open": "^8.4.0"
+    "cli-spinners": "^2.5.0",
+    "inquirer": "^7.3.2",
+    "open": "^7.0.4",
+    "ora": "^5.1.0",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
