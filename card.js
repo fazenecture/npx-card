@@ -53,3 +53,39 @@ const data = {
     labelCard: chalk.hex('#FFF976').bold("                  Card:")
 };
 
+const me = boxen(
+    [
+        `${data.name}`,
+        ``,
+        `${data.labelFact}  ${data.fact}`,
+        ``,
+        `${data.labelTwitter}  ${data.twitter}`,
+        `${data.labelGitHub}  ${data.github}`,
+        `${data.labelDev}  ${data.dev}`,
+        `${data.labelDribbble}  ${data.dribbble}`,
+        `${data.labelWebsite}  ${data.website}`,
+        ``,
+        `${data.labelCard}  ${data.npx}`,
+        ``,
+        `${chalk.bold(
+            "Hi there! I'm Harsh, I'm a passionate MERN stack " 
+        )}`,
+        `${chalk.bold("developer and web designer from India, and have a ")}`,
+        `${chalk.bold(
+            "hobby for creating beautiful, cool, and responsive "
+        )}`,
+        `${chalk.bold(
+            "web apps. Toss me an email if you want to collab!"
+        )}`
+    ].join("\n"),
+    {
+        margin: 1,
+        float: 'center',
+        padding: 1,
+        borderStyle: "single",
+        borderColor: "blue"
+    }
+);
+
+// Show the boxen
+console.log(me);
